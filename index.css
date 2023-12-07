@@ -80,4 +80,9 @@ p{
 .header .row{
     margin-top: 80px;
 }
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
