@@ -101,4 +101,45 @@ p{
     padding-left: 25px;
     padding-right: 25px; 
 }
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    font-family: sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+    line-height: 60px;
+  }
+  .title:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #CD5C5C;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    transform: translateX(-50%);
+  }
+  h4{
+    color: #555;
+    font-weight: normal;
+  }
+  .col-4 p{
+    font-size: 14px;
+  }
+  .col-4:hover{
+    transform: translateY(-5px);
+  }
 
