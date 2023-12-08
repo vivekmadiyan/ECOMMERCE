@@ -109,6 +109,7 @@ p{
 }
 .col-4 img{
     width: 100%;
+    border-radius: 5px;
 }
 .title{
     font-family: sans-serif;
@@ -150,4 +151,19 @@ li{
     transition: transform 0.3s ease-out,
                         background 0.3s ease-out;
 }
+.col-4l{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4l img{
+    width: 100%;
+    border-radius: 5px;
+}
+.col-4l:hover{
+    transform: scale(1.1);
+}
+
 
