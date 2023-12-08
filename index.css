@@ -166,21 +166,15 @@ li{
 .col-4l:hover{
     transform: scale(1.1);
 }
-p{color: #973939;
+p{
     font-weight: normal;
     font-family: sans-serif;
   }
 .offer .row .col-2 h1{
-    text-align: center;
     font-size: 4.5rem;
   }
 .offer .row .col-2 p{
-    text-align: center;
     font-size: 1.5rem;
-}
-#sm{
-    text-align: center;
-    font-size: rem;
 }
 .offer{
     background:radial-gradient(#fff,#ffd6d6);
