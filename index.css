@@ -23,7 +23,7 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color:  #555;
+    color:  #f2f5f2;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Outfit', sans-serif;
     font-family: 'Saira Extra Condensed', sans-serif;
@@ -70,8 +70,17 @@ p{
     background-color: #564343;
 }
 
-.header{
+/*.header{
     background: radial-gradient(#fff,#ffd6d6);
+}
+*/
+.header{
+    background-image: url("./assets/bgimage.jpeg");
+    height: 100vh;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
 }
 .logo img{
     border-radius: 5px;
