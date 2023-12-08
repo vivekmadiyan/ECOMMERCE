@@ -186,7 +186,7 @@ p{
     font-size: 1.5rem;
 }
 .offer{
-    background:radial-gradient(#fff,#ffd6d6);
+    background:radial-gradient(#f8fafa,#8ae9be);
     margin-top: 10px;
     padding: 30px 0;
 }
@@ -198,6 +198,5 @@ p{
     justify-content: flex-end;
     align-items: flex-end;
 }
-
 
 
