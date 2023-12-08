@@ -135,6 +135,7 @@ p{
   h4{
     color: #555;
     font-weight: normal;
+    font-family: sans-serif;
   }
   .col-4 p{
     font-size: 14px;
@@ -165,5 +166,35 @@ li{
 .col-4l:hover{
     transform: scale(1.1);
 }
+p{color: #973939;
+    font-weight: normal;
+    font-family: sans-serif;
+  }
+.offer .row .col-2 h1{
+    text-align: center;
+    font-size: 4.5rem;
+  }
+.offer .row .col-2 p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#sm{
+    text-align: center;
+    font-size: rem;
+}
+.offer{
+    background:radial-gradient(#fff,#ffd6d6);
+    margin-top: 10px;
+    padding: 30px 0;
+}
+.offer .row .col-2 img{
+    width: 85%;
+}
+#band{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 
 
