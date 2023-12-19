@@ -19,15 +19,14 @@
     <script>
         AOS.init();
       </script>
-<div class="header">
+
     <div class="container">
         <div class="navbar">
             <div class="logo">
                 <img src="./assets/pict0-13962.jpg" width="125px">
-            
             </div>
-            <nav>
-                <ul id="menuitems">
+            <nav class="p-nav">
+                <ul id="menuitems" >
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">About</a></li>
@@ -38,41 +37,24 @@
         <img src="./assets/shopping-bag.png" height="30px" width="30px">
         <img src="/assets/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
-        <div class="row">
-            <div class="col-2">
-                <h1>Give Your Fashion<br>A New Style!</h1>
-                <p>Fashion is part of the daily air and it changes all the time, with all the events.<br> You can even see the approaching of a revolution in clothes.</p>
-                <a href="#" class="btn">Explore now &#8594; </a>
-            </div>
-            <div class="col-2">
-                <!-- <img src="./assets/vector-fashion-illustration-modern-young-girl-models-spring-autumn-cloth-collection-isolated-white-background-hand-drawn-lady-sketch-style-perfect-banners-advertising-flayers-etc_191504-702.jpg.avif"> -->
-            </div>
-        </div>
+       
     </div>
-</div>
 
-<!--Featured categories-->
 
-<div class="categories">
-    <div class="small-container">
-     <div class="row">
-        <div data-aos="fade-right" data-aos-duration="1000" class="col-3">
-            <img  src="./assets/women-s-black-oversized-top-42-584449-1696587706-1.webp" alt="img" >
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1000" class="col-3">
-            <img src="./assets/women-s-pink-checked-oversized-crop-top-597307-1697808325-1.webp" alt="img">
-        </div>
-        <div data-aos="fade-left" data-aos-duration="1000" class="col-3">
-            <img src="./assets/women-s-pink-friends-logo-graphic-printed-short-top-624495-1701117748-1.webp" alt="img">
-        </div>
-     </div>
-    </div>
-</div>
 
-<!--Featured products -->
+
 
 <div class="small-container">
-    <h2 class="title">Featured Products</h2>
+ <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+<option>Default Sorting</option>
+<option>Sort by Price</option>
+<option>Sort by Popularity</option>
+<option>Sort by Rating</option>
+
+    </select>
+ </div>
     <div class="row">
         <div class="col-4">
             <img src="./assets/f_projects1.webp">
@@ -99,9 +81,6 @@
             <p>$120.00</p>
         </div>
     </div>
-
-    <!--Latest products -->
-    <h2 class="title">Latest Products</h2>
     <div class="row">
         <div class="col-4l">
             <img src="./assets/latest_products_1.jpeg">
@@ -151,101 +130,19 @@
             <p><del>$150</del></p>
             <p>$120.00</p>
         </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
     </div>
     </div>
-</div>
 
-<!-- offers -->
-<div class="offer">
-    <div class="row">
-        <div class="col-2" id="band">
-            <img src="./assets/exclusive.png">
-        </div>
-        <div class="col-2">
-            <p>Exclusively Available on Buyit</p>
-            <h1>Smart Band 5</h1>
-            <h4 id="sm">Full screen 1.56" AMOLED display has been improved all around.<br> Easily check text messages, calls and notifications with a quick glance.</h6>
-            <a href="#" class="btn">Buy now &#8594; </a>
-        </div>
-    </div>
-</div>
 
- <!---------------Testimonial------------------>  
- <div class="testimonial">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a voluptate. Nostrum, molestias tenetur? Nam dignissimos placeat explicabo iste tempora, excepturi doloremque libero non atque quas magnam impedit voluptas cumque.
-                </p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                </div>
-                <img src="assets/LADY1.jpeg">
-                <h3>Sean Parker</h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a voluptate. Nostrum, molestias tenetur? Nam dignissimos placeat explicabo iste tempora, excepturi doloremque libero non atque quas magnam impedit voluptas cumque.
-                </p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                </div>
-                <img src="assets/LADY2.jpeg">
-                <h3>Mikey Joe</h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a voluptate. Nostrum, molestias tenetur? Nam dignissimos placeat explicabo iste tempora, excepturi doloremque libero non atque quas magnam impedit voluptas cumque.
-                </p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                   
-                </div>
-                <img src="assets/new.jpg" width="" height="">
-                <h3>David Johnson</h3>
-            </div>
 
-        </div>
-    </div>
- </div>
-  <!-----------brands------------------->
-  <div class="brands">
-    <div class="small-container">
-        <div class="row">
-       <div class="col-5">
-    <img src="assets/logo-oppo.png" alt="">
-       </div>
-       <div class="col-5">
-    <img src="assets/logo-coca-cola.png" alt="">
-       </div>
-       <div class="col-5">
-    <img src="assets/logo-godrej.png" alt="">
-       </div>
-       <div class="col-5">
-  <img src="assets/logo-paypal.png" alt="">
-       </div>
-       <div class="col-5">
-    <img src="assets/logo-philips.png" alt="">
-       </div>
-        </div>
-    </div>
-  </div>
+
   <!-- ---------------footer------------------ -->
   <div class="footer">
     <div class="container">
