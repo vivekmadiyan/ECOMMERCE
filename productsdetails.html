@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproject</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Outfit:wght@500&family=Saira+Extra+Condensed:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/755bdcb783.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <script>
+        AOS.init();
+      </script>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/pict0-13962.jpg" width="125px">
+            </div>
+            <nav class="p-nav">
+                <ul id="menuitems" >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+        <img src="./assets/shopping-bag.png" height="30px" width="30px">
+        <img src="/assets/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+      <!-- ---------------single product details------------------>
+      <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="assets/f_projects1.webp" width="100%">
+                </div>
+            <div class="col-2">
+                <p> Home / Shoes</p>
+                <h1>Nike Superfly 9 Elite Mercurial</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Product Details</h3>
+                <br>
+                <p>CHOOSE A PERFECT SHOE FOR YOURSELF</p>
+            </div>
+        </div>
+      </div>
+    
+    
+    
+    
+      <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/f_projects1.webp">
+                <h4>Nike Superfly 9 Elite Mercurial</h4>
+                <p><del>$100</del></p>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/f_products_2.webp">
+                <h4>Nike Mercurial Vapor 15 Elite</h4>
+                <p><del>$180</del></p>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/f_products3.webp">
+                <h4>Nike Mercurial Vapor 15</h4>
+                <p><del>$200</del></p>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/f_product_4.webp">
+                <h4>Nike Jr. Mercurial Superfly 9</h4>
+                <p><del>$150</del></p>
+                <p>$120.00</p>
+            </div>
+        </div>
+     </div>
+           
+    
+
+  <!-- ---------------footer------------------ -->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+             <h3>Download Our App</h3>
+             <p>Download App for Android and Ios Mobile phone</p>
+             <div class="app-logo">
+                <img src="assets/play-store.png" alt="">
+                <img src="assets/app-store.png" alt="">
+             </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="assets/pict0-13962.jpg">
+                <p>Our Purpose Is To Sustainably Make the Pleaure and Benefits of Sports Accesible to many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policies</li>
+                    <li>Join Affilate</li>
+                    
+                </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us </h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        
+                    </ul>
+                    </div>
+    </div>
+    <div>
+        <hr>
+        <p class="copyright">
+            Copyright 2023- Buy It
+        </p>
+    </div>
+    </div>
+  </div>
+  </div>
+  <!-- js for toggle menu -->
+  <script>
+    var menuitems=document.getElementById("menuitems");
+    menuitems.style.maxHeight ="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px")
+        {
+            menuitems.style.maxHeight = "200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight ="0px"
+        }
+    }
+  </script>
+</body>
+</html>
